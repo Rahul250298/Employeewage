@@ -10,8 +10,9 @@ namespace Employeewage
     {
         static void Main(string[] args)
         {
-        Employee.Employeeattendance();
-            Console.ReadLine();
+            //Employee.Employeeattendance();
+            Employee1.EmployeewageUc2();
+                Console.ReadLine();
         }
     }
 }
