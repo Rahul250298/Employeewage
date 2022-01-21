@@ -11,7 +11,8 @@ namespace Employeewage
         static void Main(string[] args)
         {
             //Employee.Employeeattendance();
-            Employee1.EmployeewageUc2();
+            // Employee1.EmployeewageUc2();
+            Employee2.EmployeewageUc3();
                 Console.ReadLine();
         }
     }
