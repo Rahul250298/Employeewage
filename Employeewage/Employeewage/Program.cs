@@ -12,7 +12,10 @@ namespace Employeewage
         {
             //Employee.Employeeattendance();
             // Employee1.EmployeewageUc2();
-            Employee2.EmployeewageUc3();
+           // Employee2.EmployeewageUc3();
+            Console.WriteLine("Welcome to Employee Wage Computation");
+            Employee3.EmployeewageUc4();
+
                 Console.ReadLine();
         }
     }
