@@ -1,0 +1,7 @@
+C:\Users\uknwr\repos\Employeewage\Employeewage\obj\Debug\Employeewage.csproj.SuggestedBindingRedirects.cache
+C:\Users\uknwr\repos\Employeewage\Employeewage\obj\Debug\Employeewage.csproj.CoreCompileInputs.cache
+C:\Users\uknwr\repos\Employeewage\Employeewage\bin\Debug\Employeewage.exe.config
+C:\Users\uknwr\repos\Employeewage\Employeewage\bin\Debug\Employeewage.exe
+C:\Users\uknwr\repos\Employeewage\Employeewage\bin\Debug\Employeewage.pdb
+C:\Users\uknwr\repos\Employeewage\Employeewage\obj\Debug\Employeewage.exe
+C:\Users\uknwr\repos\Employeewage\Employeewage\obj\Debug\Employeewage.pdb
