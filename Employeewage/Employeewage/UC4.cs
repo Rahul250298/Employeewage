@@ -10,27 +10,25 @@ namespace Employeewage
     {
         public static void EmployeewageUc4()
         {
-            Random random = new Random();
             int fullTimeEmployee = 1;
             int partTimeEmployee = 2;
-            int randomInput = random.Next(0, 3);
             int empRateHr = 20;
             int empHrs = 0;
             int totalwage = 0;
-            
-    
+            Random random = new Random();  
+            int randomInput = random.Next(0, 3);
             switch (randomInput)
             {
                 case 1:
-                    Console.WriteLine("Employee is present:fullTimeEmployee");
+                    //Console.WriteLine("Employee is present:fullTimeEmployee");
                     empHrs = 8;
                     break;
                 case 2: 
-                     Console.WriteLine("EmplOyee is present:PartTimeEmployee");
+                     //Console.WriteLine("EmplOyee is present:PartTimeEmployee");
                      empHrs = 4;
                      break;
                 default :
-                      Console.WriteLine("Employee is absent");
+                      //Console.WriteLine("Employee is absent");
                       empHrs = 0;
                       break;
                 }
