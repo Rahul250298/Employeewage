@@ -12,19 +12,23 @@ namespace Employeewage
         {
             Random random = new Random();
             int fullTimeEmployee = 1;
+            int partTime=2;
             int randomInput = random.Next(0, 2);
             int empRateHr = 20;
             int empHrs = 0;
             int totalwage = 0;
-
             if (randomInput == fullTimeEmployee)
             {
-                Console.WriteLine("Employee is present");
+                //Console.WriteLine("Employee is present");
                 empHrs = 8;
+            }
+            else if (randomInput == partTime)
+            {
+                emphrs=4;
             }
             else
             {
-                Console.WriteLine("Employee is absent");
+               //Console.WriteLine("Employee is absent");
                 empHrs = 0;
             }
             totalwage = empRateHr * empHrs;
