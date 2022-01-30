@@ -11,7 +11,7 @@ namespace Employeewage
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Computation");
-            EmployeeWage6 employee = new EmployeeWage6();
+            EmployeeWage7 employee = new EmployeeWage7();
             employee.MonthlytEmpwage();
             Console.ReadLine();
         }
