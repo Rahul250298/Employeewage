@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmpWage
+namespace  Employeewage
 {
-    public class EmpWage
+    public class  Employee6
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
