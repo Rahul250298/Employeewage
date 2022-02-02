@@ -8,10 +8,10 @@ namespace EmployeeWage
 {
    internal class CalculateEmpWage
     {
-        /* Uc - 13 Implementation
-         * In this branch,implemented interface
-         * Stored daily Wage And Total Wage
-         */
+        /* Uc - 14 Implementation
+        * In this branch implemented, 
+        * Get Total Wage when Queried by a company name.
+        */
         //Constant Variables.
         const int FULL_TIME = 1;
         const int PART_TIME = 2;
@@ -72,8 +72,6 @@ namespace EmployeeWage
                 totalEmpWrkHr = empHrs + totalEmpWrkHr;      //Computing Total Work Hrs of Employee Day wise.
                 totalEmpwrkDay++;                           //incrementing Number of Day Worked.
             }
-            Console.WriteLine("Daily Wage:" + dailyWage);           //Daily Wage
-            Console.WriteLine("Total Wage:" + totalWage);          //Total Wage 
             return totalWage;
         }
 
@@ -92,6 +90,12 @@ namespace EmployeeWage
                     empHrs = 0;
                     break;
             }
+        }
+
+        //Method to get Total Wage as per company.
+        public int GetTotalWage(string company)
+        {
+            return this.employees[company].totalWage;
         }
     }
 }
