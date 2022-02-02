@@ -10,10 +10,14 @@ namespace Employeewage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation");
-            EmployeeWage7 employee = new EmployeeWage7();
-            employee.MonthlytEmpwage();
+            EmpWage dMart = new EmpWage("DMart", 20, 2, 10);
+            EmpWage reliance = new EmpWage("Reliance", 10, 4, 10);
+            dMart.computeEmpWage();
+            Console.WriteLine(dMart.toString());
+            reliance.computeEmpWage();
+            Console.WriteLine(reliance.toString());
             Console.ReadLine();
+          
         }
     }
 }
