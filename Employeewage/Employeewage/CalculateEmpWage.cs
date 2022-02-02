@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-  internal class CalculateEmpWage:IEmpWage
+   internal class CalculateEmpWage
     {
-        /* Uc - 11 Implementation
-        * In this branch implemented, 
-        * interface to get Emploee Wage
-        */
+        /* Uc - 13 Implementation
+         * In this branch,implemented interface
+         * Stored daily Wage And Total Wage
+         */
         //Constant Variables.
         const int FULL_TIME = 1;
         const int PART_TIME = 2;
@@ -29,7 +29,7 @@ namespace EmployeeWage
         /// <param name="company">The company.</param>
         /// <param name="wagePrHrs">The wage pr HRS.</param>
         /// <param name="totalWorkHrs">The total work HRS.</param>
-        /// <param name="totalWorkDay">The total work day.</param>      
+        /// <param name="totalWorkDay">The total work day.</param>
         public void AddCompany(string company, int wagePrHrs, int totalWorkHrs, int totalWorkDay)
         {
             //creating obj of EmpWage and passing constructor values
@@ -72,6 +72,8 @@ namespace EmployeeWage
                 totalEmpWrkHr = empHrs + totalEmpWrkHr;      //Computing Total Work Hrs of Employee Day wise.
                 totalEmpwrkDay++;                           //incrementing Number of Day Worked.
             }
+            Console.WriteLine("Daily Wage:" + dailyWage);           //Daily Wage
+            Console.WriteLine("Total Wage:" + totalWage);          //Total Wage 
             return totalWage;
         }
 
@@ -91,14 +93,9 @@ namespace EmployeeWage
                     break;
             }
         }
-
-        //Method to get Total Wage as per company.
-        public int GetTotalWage(string company)
-        {
-            return this.employees[company].totalWage;
-        }
     }
 }
+ 
 
         
 
