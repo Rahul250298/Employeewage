@@ -8,7 +8,7 @@ namespace EmployeeWage
 {
     internal class EmployeeWage
     {
-         //Instance variables.
+       //Instance variables.
         public string company;
         public int wagePrHrs, totalWorkHrs, totalWorkDay, totalWage;
 
